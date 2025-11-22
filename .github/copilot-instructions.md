@@ -1,8 +1,9 @@
 <!-- .github/copilot-instructions.md: guidance for AI coding agents working on this repo -->
-# คำแนะนำสำหรับ Copilot / AI agent — Next.js Developer Portfolio Starter (ภาษาไทย)
 
-สรุปสั้น ๆ
-- โปรเจกต์นี้เป็นตัวอย่าง Next.js (pages-router) ขนาดเล็ก โค้ดหลักอยู่ใน `src/pages` (เพจ React และ API routes), สไตล์อยู่ใน `src/styles` (CSS ทั่วไป + CSS modules), และไฟล์ static อยู่ใน `public/` และ `website images/`.
+# คำแนะนำสั้น ๆ สำหรับ Copilot / AI agent (ภาษาไทย, เป็นกันเอง)
+
+สรุปสั้น ๆ (แบบเป็นกันเอง)
+- โปรเจกต์นี้เป็นตัวอย่าง Next.js (pages-router) ขนาดเล็ก — โค้ดเพจอยู่ที่ `src/pages`, สไตล์ที่ `src/styles` และไฟล์ static อยู่ใน `public/` (เช่น รูปและ copy ใน `public/All-Texts`).
 
 คำสั่งด่วน
 - ติดตั้ง: `npm install`

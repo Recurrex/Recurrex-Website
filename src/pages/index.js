@@ -9,15 +9,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ตัวอย่างพอร์ตโฟลิโอ Next.js</title>
-        <meta name="description" content="ตัวอย่างเว็บไซต์พอร์ตโฟลิโอ สร้างด้วย Next.js" />
+        <title>พอร์ตโฟลิโอตัวอย่าง — Next.js</title>
+        <meta name="description" content="เว็บพอร์ตโฟลิโอตัวอย่าง ทำด้วย Next.js — แก้ไขแล้วรันได้เลย" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            เริ่มแก้ไขไฟล์นี้ได้ที่&nbsp;
+            เริ่มได้เลย — แก้ไฟล์
             <code className={styles.code}>src/pages/index.js</code>
           </p>
           <div>
