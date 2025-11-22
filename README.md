@@ -1,47 +1,28 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+ # Next.js Portfolio Starter — คำอธิบายสั้น ๆ (ภาษาไทย)
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+ นี้คือโค้ดเริ่มต้นสำหรับเว็บไซต์พอร์ตโฟลิโอที่สร้างด้วย Next.js (ตัวอย่างเริ่มต้น) — เหมาะสำหรับแก้ไขเพื่อทำเว็บส่วนบุคคลของคุณ
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+ ตัวอย่างและวิดีโอสอนที่ผู้เขียนอ้างอิงอยู่ใน README เดิม (ลิงก์เดิมยังคงใช้ได้) หากต้องการดูตัวอย่างการทำงานหรือเรียนรู้การสร้างเว็บนี้จากวิดีโอ ให้ใช้ลิงก์ใน README ที่มีอยู่
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
+ ---
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+ ภาพตัวอย่างของเว็บไซต์อยู่ในโฟลเดอร์ `website images/` และแสดงตัวอย่างโครงร่างหน้าเพจแบบสว่าง/มืด
 
----
-✨ Checkout my brand new Saas application -> [AI Headshot Generator](https://www.smartheadshots.ai)
+ ### แหล่งที่มาและไลบรารีที่ใช้
+ - รูปโปรไฟล์หน้าแรกสร้างด้วย Midjourney (ถ้ามี)
+ - รูปโปรไฟล์หน้า About บางภาพมาจาก Unsplash (เครดิตต้นฉบับอยู่ใน README ดั้งเดิม)
+ - ฟอนต์: Google Fonts
+ - ไอคอน: Iconify (หรือ SVG ที่จัดเก็บใน `public/`)
+ - ไลบรารีสำคัญ: `next`, `react`, `react-dom`, `framer-motion`
 
----
+ ### คำแนะนำการใช้งานสั้น ๆ
+ - ติดตั้ง dependencies: `npm install`
+ - เริ่มพัฒนาแบบ hot-reload: `npm run dev`
+ - สร้าง build production: `npm run build` แล้ว `npm run start`
 
-### Images of The Portfolio Website:
-
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
+ หากต้องการให้แปลรายละเอียดเพิ่มเติมหรือแยก README เป็นภาษาไทยอย่างครบถ้วน แจ้งได้เลยว่าต้องการระดับความละเอียดแค่ไหน (สรุปสั้น / แนะนำการพัฒนา / คู่มือ deploy)
 ![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
+
 ![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
+
 ![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
-
-
-### Resources Used in This Project
-
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
-
-### External Libraries used in this project:
-
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
-
-

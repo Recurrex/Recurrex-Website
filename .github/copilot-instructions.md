@@ -1,67 +1,67 @@
 <!-- .github/copilot-instructions.md: guidance for AI coding agents working on this repo -->
-# Copilot / AI agent instructions — Next.js Developer Portfolio Starter
+# คำแนะนำสำหรับ Copilot / AI agent — Next.js Developer Portfolio Starter (ภาษาไทย)
 
-Quick summary
-- This is a small Next.js (pages-router) portfolio starter. Key code lives under `src/pages` (React pages and API routes), styles live in `src/styles` (global CSS + CSS modules), and static assets are in `public/` and `website images/`.
+สรุปสั้น ๆ
+- โปรเจกต์นี้เป็นตัวอย่าง Next.js (pages-router) ขนาดเล็ก โค้ดหลักอยู่ใน `src/pages` (เพจ React และ API routes), สไตล์อยู่ใน `src/styles` (CSS ทั่วไป + CSS modules), และไฟล์ static อยู่ใน `public/` และ `website images/`.
 
-Fast commands
-- Install: `npm install`
-- Dev server: `npm run dev` (runs `next dev`)
-- Build: `npm run build` then `npm run start` for production
-- Lint: `npm run lint`
+คำสั่งด่วน
+- ติดตั้ง: `npm install`
+- เริ่มพัฒนา: `npm run dev` (เรียก `next dev`)
+- สร้าง production: `npm run build` แล้ว `npm run start`
+- ตรวจโค้ด: `npm run lint`
 
-Big picture / architecture
-- Router: Uses the Next.js pages router. Edit page components in `src/pages/*.js` (e.g., `src/pages/index.js`).
-- Static assets: `public/` holds images and `public/All-Texts/*.txt` (site copy snippets). These are static files served at `/<path>` and commonly referenced by pages.
-- Styling: Global CSS in `src/styles/globals.css`. Component/page styles use CSS Modules (example: `src/styles/Home.module.css`) — not Tailwind in the actual codebase.
-- API: Serverless API routes live in `src/pages/api/*.js` (example: `src/pages/api/hello.js` returns JSON). Use these for small backend endpoints.
+ภาพรวมสถาปัตยกรรม
+- Router: ใช้ pages router ของ Next.js — แก้ไขไฟล์เพจที่ `src/pages/*.js` (เช่น `src/pages/index.js`).
+- ไฟล์ static: รูปภาพและข้อความสำคัญเก็บใน `public/` และ `public/All-Texts/*.txt` (ไฟล์ข้อความใช้เป็น copy snippets)
+- สไตล์: global CSS อยู่ที่ `src/styles/globals.css` และเพจแต่ละหน้าใช้ CSS Modules เช่น `src/styles/Home.module.css` (โค้ดปัจจุบันไม่ได้ใช้ Tailwind)
+- API: ใช้ serverless API routes ภายใต้ `src/pages/api/*.js` (ตัวอย่าง `src/pages/api/hello.js` ส่ง JSON กลับ)
 
-Project-specific notes (do not assume common README claims)
-- The repository README mentions Tailwind, but the codebase uses plain CSS + CSS modules and `globals.css`. Do not add Tailwind or refactor to Tailwind unless the user asks.
-- `framer-motion` is listed as a dependency; animation code may be present in forks or intended features, but current pages are a default Next.js template. Import `framer-motion` when adding animations.
-- Next.js version is v14 (see `package.json`) but the project still uses `src/pages` (pages router). Avoid migrating to the `app/` router unless instructed.
+บันทึกเฉพาะโปรเจกต์
+- README เดิมอ้างถึง Tailwind แต่โค้ดใน repo ใช้ plain CSS + CSS Modules — อย่าแปลงเป็น Tailwind โดยพลการ
+- `framer-motion` ถูกเพิ่มใน `package.json` เพื่อรองรับอนิเมชัน ถ้าจะเพิ่มแอนิเมชันให้ import และใช้งานในคอมโพเนนต์ตามต้องการ
+- Next.js เวอร์ชันคือ v14 แต่โปรเจกต์ยังใช้ `src/pages` — หลีกเลี่ยงการย้ายไป `app/` router เว้นแต่ได้รับคำสั่ง
 
-Common editing tasks — concrete file targets
-- Edit homepage copy: `src/pages/index.js` and `src/styles/Home.module.css` or `public/All-Texts/pages.txt` (update the static copy file if content should be reused across builds).
-- Add a new page: create `src/pages/<name>.js` and a corresponding CSS module in `src/styles` if needed.
-- Add an API endpoint: create `src/pages/api/<endpoint>.js`. Mirror the `handler(req,res)` pattern from `src/pages/api/hello.js`.
-- Add an image asset: put the file under `public/images/` or `website images/` and reference with `next/image` (`/images/<file>`).
+งานแก้ไขที่พบบ่อย — ไฟล์เป้าหมาย
+- แก้เนื้อหา homepage: `src/pages/index.js` และ `src/styles/Home.module.css` หรือแก้ copy ใน `public/All-Texts/pages.txt`
+- เพิ่มเพจใหม่: สร้าง `src/pages/<name>.js` และ CSS module ใน `src/styles` ถ้าจำเป็น
+- เพิ่ม API endpoint: สร้าง `src/pages/api/<endpoint>.js` ตาม pattern `handler(req,res)` ใน `src/pages/api/hello.js`
+- เพิ่มรูป: วางไฟล์ใน `public/images/` หรือ `website images/` แล้วใช้ `next/image` เพื่ออ้างอิง (`/images/<file>`)
 
-Debugging & developer workflow
-- Local dev: `npm run dev` shows React/Next overlay errors in browser; use server logs for runtime API errors.
-- API test: call `http://localhost:3000/api/hello` to check route responses.
-- Production test: `npm run build` then `npm run start` — watch for build errors related to imports or image sizes.
+วิธีดีบักและ workflow ของนักพัฒนา
+- พัฒนาแบบ local: `npm run dev` — overlay ของ Next จะแสดง error ในเบราว์เซอร์
+- ทดสอบ API เล็ก ๆ: เรียก `http://localhost:3000/api/hello` เพื่อตรวจการตอบกลับ
+- ทดสอบ production: `npm run build` แล้ว `npm run start` — เฝ้าดูข้อผิดพลาดการ import หรือขนาดรูปภาพที่อาจทำให้ build ล้มเหลว
 
-Patterns and conventions to respect
-- Keep pages under `src/pages` (file-based routing). Avoid changing directory layout.
-- Use CSS Modules for page-level styles (import as `styles from '@/styles/Name.module.css'`). Global tokens and variables belong in `src/styles/globals.css`.
-- Static copy is sometimes stored in plaintext under `public/All-Texts/*.txt` — search and update those files when editing site copy.
-- Prefer `next/image` for images already used in `src/pages/index.js` (it requires images to be in `public/` or configured domains).
+ข้อปฏิบัติและ convention
+- เก็บเพจใน `src/pages` เสมอ — อย่าเปลี่ยนโครงสร้างโฟลเดอร์หลัก
+- ใช้ CSS Modules สำหรับสไตล์ของเพจ (`import styles from '@/styles/Name.module.css'`) และเก็บตัวแปรโทนสีใน `src/styles/globals.css`
+- ข้อความคงที่บางส่วนเก็บใน `public/All-Texts/*.txt` — ค้นหาและแก้ไฟล์เหล่านี้เมื่อต้องการเปลี่ยน copy ของเว็บไซต์
+- ใช้ `next/image` เมื่ออ้างอิงรูปจาก `public/` เพื่อให้ได้ประสิทธิภาพการโหลดที่ดี
 
-External deps & integration points
-- `next`, `react`, `react-dom` — core framework. Follow Next.js v14 docs for behavior.
-- `framer-motion` — used for animations if added; import per component.
-- No server/database integrations present — only serverless API routes under `src/pages/api`.
+dependency และ integration points
+- `next`, `react`, `react-dom` — ไลบรารีหลักตามเวอร์ชันใน `package.json`
+- `framer-motion` — ใช้เมื่อต้องการแอนิเมชันในคอมโพเนนต์
+- ไม่มีการเชื่อมต่อฐานข้อมูลหรือบริการภายนอกอื่น ๆ ใน repo นี้ — มีเพียง API routes แบบ serverless
 
-Examples (copy/paste targets)
-- Simple API route (pattern exists in `src/pages/api/hello.js`):
+ตัวอย่าง (คัดลอกใช้ได้)
+- ตัวอย่าง API route (`src/pages/api/hello.js`):
 ```
 export default function handler(req, res) {
   res.status(200).json({ name: 'John Doe' })
 }
 ```
-- Dev run:
+- คำสั่งเริ่มพัฒนา:
 ```
 npm install
 npm run dev
 ```
 
-When in doubt
-- Search code for the string you plan to change (e.g., a header text) — the repo often stores copy in `public/All-Texts/*.txt`.
-- Do not introduce major structural changes (router migration, Tailwind) without an explicit request.
+เมื่อติดขัด
+- ค้นหาสตริงที่ต้องการเปลี่ยนในโค้ดก่อนแก้ — ข้อความบางส่วนอยู่ใน `public/All-Texts/*.txt`
+- หลีกเลี่ยงการเปลี่ยนสถาปัตยกรรมหลัก (เช่น ย้ายไป `app/` router หรือเพิ่ม Tailwind) โดยไม่ได้รับอนุญาต
 
-If you edit this file
-- Keep it short and concrete. Add references to new conventions only when they appear in the code.
+แก้ไฟล์นี้แล้ว
+- คงความสั้นและชัดเจนไว้เมื่อแก้ไฟล์นี้ และเพิ่มคำอธิบายใหม่เมื่อมี convention ใหม่ที่ต้องรู้
 
-Feedback
-- If anything above is unclear or a follow-up is needed (specific pages, tests, CI, or intended Tailwind migration), tell me which area to expand.
+ข้อเสนอแนะ
+- ถ้าต้องการให้ผมขยายหัวข้อใด (เช่น เพิ่มตัวอย่างการทำ PR, CI, หรือชุดทดสอบ) บอกได้เลยว่าจะเพิ่มอะไร

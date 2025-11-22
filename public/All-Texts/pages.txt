@@ -75,46 +75,90 @@ Learning Engineering.
 --------------------------------------------------------------
 
 PROJECTS PAGE:
+HOME PAGE:
 
-- Imagination Trumps Knowledge!
+- เปลี่ยนวิสัยทัศน์ให้เป็นจริงด้วยโค้ดและการออกแบบ
+- ในฐานะนักพัฒนา Full‑Stack ผมมุ่งมั่นที่จะเปลี่ยนไอเดียให้เป็นเว็บแอปที่ใช้งานได้จริง สำรวจผลงานและบทความล่าสุดเพื่อดูทักษะด้าน React.js และการพัฒนาเว็บ
+
+--------------------------------------------------------------
+
+ABOUT PAGE:
+
+- แรงบันดาลใจนำไปสู่เป้าหมาย
+- สวัสดีครับ/ค่ะ ผมคือ CodeBucks — นักพัฒนาเว็บและนักออกแบบ UI/UX ที่หลงใหลในการสร้างประสบการณ์ดิจิทัลที่สวยงามและใช้งานได้จริง มีประสบการณ์ทำงานด้านนี้หลายปี และมองหาวิธีใหม่ ๆ ในการเปลี่ยนวิสัยทัศน์ของลูกค้าให้เป็นผลงาน
+
+- การออกแบบสำหรับผมคือการแก้ปัญหา ไม่ได้หมายถึงแค่ความสวยงาม แต่เป็นการสร้างประสบการณ์ที่ใช้งานง่ายและน่าพึงพอใจสำหรับผู้ใช้
+
+- ไม่ว่าจะเป็นเว็บไซต์ แอปบนมือถือ หรือผลิตภัณฑ์ดิจิทัลอื่น ๆ ผมมุ่งมั่นในความเป็นเลิศด้านการออกแบบและการคิดแบบผู้ใช้เป็นศูนย์กลาง
+
+--------------------------------------------------------------
+
+EXPERIENCE:
+
+Software Engineer @ Google
+2022–ปัจจุบัน | Mountain View, CA
+ร่วมทีมพัฒนาฟีเจอร์ใหม่ ๆ ให้กับระบบค้นหาของ Google ปรับปรุงความแม่นยำของผลการค้นหา และพัฒนาเครื่องมือสำหรับการวิเคราะห์ข้อมูล
+
+Intern @ Facebook
+Summer 2021 | Menlo Park, CA
+ทำงานในทีมพัฒนา feature บนมือถือที่ให้ผู้ใช้สร้างและแชร์วิดีโอสั้น ออกแบบ UI ใหม่ และพัฒนาโครงสร้าง backend เพื่อรองรับฟีเจอร์
+
+Software Developer @ Amazon
+2020–2021 | Seattle, WA
+พัฒนาแอปมือถือของ Amazon เพิ่มฟีเจอร์ต่าง ๆ เช่น คำแนะนำสินค้าและรีวิวผู้ใช้ ปรับปรุงประสิทธิภาพและความเสถียรของแอป
+
+Software Developer Intern @ Microsoft
+Summer 2019 | Redmond, WA
+ร่วมพัฒนา feature ใหม่ให้ระบบปฏิบัติการ Windows รวมถึงการออกแบบ UI สำหรับแผงการตั้งค่าระบบและการปรับประสิทธิภาพของคอมโพเนนต์หลัก
+
+Teaching Assistant @ MIT
+Fall 2018 | Cambridge, MA
+ช่วยสอนวิชาเขียนโปรแกรม ให้คำปรึกษาแก่นักศึกษา และตรวจข้อสอบ/แบบฝึกหัด
+
+--------------------------------------------------------------
+
+EDUCATION:
+
+ปริญญาตรี Computer Science
+2016–2020 | Massachusetts Institute Of Technology (MIT)
+หลักสูตรที่เกี่ยวข้อง: โครงสร้างข้อมูล อัลกอริทึม ระบบคอมพิวเตอร์ ปัญญาประดิษฐ์
+
+ปริญญาโท Computer Science
+2020–2022 | Stanford University
+โปรเจควิทยานิพนธ์เกี่ยวกับ deep learning และสถาปัตยกรรมเครือข่ายประสาทสำหรับการประมวลผลภาษา
+
+คอร์สออนไลน์
+2016–2020 | Coursera และ edX
+หลักสูตรด้าน Reinforcement Learning, Computer Vision, และ Machine Learning Engineering
+
+--------------------------------------------------------------
+
+PROJECTS PAGE:
+
+- ไอเดียคือสิ่งสำคัญ
 
 Crypto Screener Application
-A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.
+แอป Crypto Screener ที่มีฟีเจอร์ครบถ้วน พัฒนาโดยใช้ React, Context API, Recharts — แสดงข้อมูลเหรียญและรองรับการแปลงราคาเป็นสกุลเงินท้องถิ่น
 
 React Portfolio Website
-A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive.
+เว็บไซต์พอร์ตโฟลิโอที่สร้างด้วย React, Framer‑motion และ Styled‑components มีการเปลี่ยนหน้าแบบนุ่มนวล เอฟเฟกต์พื้นหลัง และรองรับมือถือ
 
 --------------------------------------------------------------
 
 ARTICLES PAGE:
 
-- Words Can Change The World! 
+- คำพูดเปลี่ยนโลกได้
 
-Build A Custom Pagination Component In Reactjs From Scratch
-Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
-9 min read
+ตัวอย่างบทความ:
 
-Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens
-Learn how to create stunning loading screens in React with 3 different methods. 
-Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-Improve the user experience.
-10 min read
-
-Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-
-Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion
-
-Redux Simplified: A Beginner's Guide For Web Developers
-
-What Is Higher Order Component (Hoc) In React?
+- สร้างคอมโพเนนต์ Pagination ใน ReactJS จากศูนย์
+- สร้างหน้าโหลดที่สวยงามใน React: 3 วิธี
+- การตรวจสอบฟอร์มใน React ด้วย custom hook
+- การทำ Smooth Scrolling ใน React
+- สร้าง Modal ที่มีประสิทธิภาพโดยใช้ Hooks และ Portals
+- สร้าง Todo List ด้วย React, Redux และ Framer‑motion
+- Redux สำหรับผู้เริ่มต้น
+- HOC (Higher Order Component) คืออะไร
 
 
 

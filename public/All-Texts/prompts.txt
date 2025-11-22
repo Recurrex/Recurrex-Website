@@ -1,3 +1,3 @@
-Prompt to generate developer image using midjourney:
+คำสั่ง (prompt) สำหรับสร้างรูปโปรไฟล์นักพัฒนาโดยใช้ Midjourney:
 
-- A developer wearing glasses, digital art, profile picture, white background
+- นักพัฒนาสวมแว่น ตกแต่งเป็นงานศิลปะดิจิทัล รูปโปรไฟล์ พื้นหลังสีขาว
